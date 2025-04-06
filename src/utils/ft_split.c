@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hasbayou <hasbayou@student.1337.ma>        +#+  +:+       +#+        */
+/*   By: retahri <retahri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/11 22:34:23 by hasbayou          #+#    #+#             */
-/*   Updated: 2025/03/09 20:13:09 by hasbayou         ###   ########.fr       */
+/*   Created: 2025/04/06 09:44:56 by retahri           #+#    #+#             */
+/*   Updated: 2025/04/06 13:21:14 by retahri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ static void	*ft_free(char **split, int i)
 	return (NULL);
 }
 
-char	**ft_split(char	const *s, char c)
+char	**ft_split(char const *s, char c)
 {
 	int		i;
 	char	**split;
